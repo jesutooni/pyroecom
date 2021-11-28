@@ -4,7 +4,7 @@
       <top-nav />
 
       <div
-        class="text-white lg:flex items-center py-8 h-4/5 max-w-7xl w-11/12 mx-auto mt-12"
+        class="text-white lg:flex items-center pb-24 h-4/5 max-w-7xl w-11/12 mx-auto mt-12"
       >
         <div class="text-center lg:text-left">
           <h1 class="text-3xl lg:text-5xl font-bold uppercase">
