@@ -10,6 +10,11 @@ module.exports = {
         pale: {
           green: "#2F4F4F",
         },
+        gray: {
+          dark: "#343A40",
+          light: "#6A6975",
+          lighter: "#FFFFFF80",
+        },
       },
     },
   },

@@ -40,27 +40,27 @@
 
     <!-- Mobile Nav -->
     <nav
-      :class="`md:hidden text-white overflow-hidden transition duration-150 ${
-        nav ? 'h-auto' : 'h-0'
+      :class="` md:hidden text-white overflow-hidden transition-all duration-500 ${
+        nav ? 'h-60 ' : 'h-0'
       }`"
     >
-      <ul>
+      <ul class="w-11/12 mx-auto">
         <li
           v-for="nav in navs"
           :key="nav"
-          class="cursor-pointer mr-8 duration-200 hover:text-amber"
+          class="cursor-pointer mr-8 duration-200 my-4"
         >
           {{ nav }}
         </li>
       </ul>
-      <div>
+      <div class="w-11/12 mx-auto">
         <button
-          class="w-28 py-1.5 rounded-md uppercase focus:outline-none font-bold border-2 border-amber block"
+          class="w-full py-1.5 mb-4 rounded-md uppercase focus:outline-none font-bold border-2 border-amber block"
         >
           Login
         </button>
         <button
-          class="w-28 py-1.5 rounded-md uppercase focus:outline-none font-bold bg-amber text-black block"
+          class="w-full py-1.5 rounded-md uppercase focus:outline-none font-bold bg-amber text-black block"
         >
           Sign Up
         </button>
