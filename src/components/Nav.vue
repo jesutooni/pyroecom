@@ -58,16 +58,20 @@
         </li>
       </ul>
       <div class="w-11/12 mx-auto">
-        <button
-          class="w-full py-1.5 mb-4 rounded-md uppercase focus:outline-none font-bold border-2 border-amber block"
+        <router-link to="/login">
+          <button
+            class="w-full py-1.5 mb-4 rounded-md uppercase focus:outline-none font-bold border-2 border-amber block"
+          >
+            Login
+          </button></router-link
         >
-          Login
-        </button>
-        <button
-          class="w-full py-1.5 rounded-md uppercase focus:outline-none font-bold bg-amber text-black block"
+        <router-link to="/register">
+          <button
+            class="w-full py-1.5 rounded-md uppercase focus:outline-none font-bold bg-amber text-black block"
+          >
+            Sign Up
+          </button></router-link
         >
-          Sign Up
-        </button>
       </div>
     </nav>
   </div>
