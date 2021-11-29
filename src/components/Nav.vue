@@ -15,16 +15,20 @@
         </li>
       </ul>
       <div class="hidden md:block">
-        <button
-          class="w-28 py-1.5 rounded-md uppercase focus:outline-none font-bold"
+        <router-link to="/login">
+          <button
+            class="w-28 py-1.5 rounded-md uppercase focus:outline-none font-bold"
+          >
+            Login
+          </button></router-link
         >
-          Login
-        </button>
-        <button
-          class="w-28 py-1.5 rounded-md uppercase focus:outline-none font-bold bg-amber text-black"
+        <router-link to="/register">
+          <button
+            class="w-28 py-1.5 rounded-md uppercase focus:outline-none font-bold bg-amber text-black"
+          >
+            Sign Up
+          </button></router-link
         >
-          Sign Up
-        </button>
       </div>
 
       <!-- Hamburger Menu -->

@@ -13,11 +13,13 @@
           <p class="font-bold text-xl mt-4">
             Real creators. Upfront rates. Fast results.
           </p>
-          <button
-            class="mt-8 uppercase bg-amber py-3 px-6 rounded-sm focus:outline-none font-bold text-pale-green"
+          <router-link to="register">
+            <button
+              class="mt-8 uppercase bg-amber py-3 px-6 rounded-sm focus:outline-none font-bold text-pale-green"
+            >
+              Sign up for free!
+            </button></router-link
           >
-            Sign up for free!
-          </button>
           <p class="mt-5">
             Want to know more?
             <a href="#" class="text-amber">See how it works</a>
