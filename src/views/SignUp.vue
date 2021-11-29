@@ -1,6 +1,8 @@
 <template>
-  <div class="h-screen">
-    <div class="bg-blueDark lg:w-5/12 px-4 text-white h-full flex items-center">
+  <div class="lg:h-screen">
+    <div
+      class="bg-blueDark lg:w-5/12 px-4 py-8 lg:py-0 text-white lg:h-full lg:flex items-center"
+    >
       <div class="max-w-lg mx-auto w-11/12">
         <h1 class="text-2xl font-bold">
           Register on <span class="text-amber">Pyroecom</span>
@@ -46,7 +48,7 @@
           </button>
         </form>
 
-        <p class="text-center my-8">
+        <p class="text-center mt-8">
           Already have an account?
           <router-link to="/login" class="text-amber">Login</router-link>
         </p>
