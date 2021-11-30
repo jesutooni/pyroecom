@@ -16,6 +16,10 @@ module.exports = {
           lighter: "#FFFFFF80",
         },
       },
+      screens: {
+        xs: "480px",
+        // => @media (min-width: 640px) { ... }
+      },
     },
   },
   variants: {

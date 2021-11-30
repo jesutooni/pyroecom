@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Login from "../views/Login.vue";
 import SignUp from "../views/SignUp.vue";
+import Registration from "../views/Registration.vue";
 import ForgotPassword from "../views/ForgotPassword.vue";
 
 Vue.use(VueRouter);
@@ -36,6 +37,11 @@ const routes = [
     path: "/register",
     name: "SignUp",
     component: SignUp,
+  },
+  {
+    path: "/registration",
+    name: "Registration",
+    component: Registration,
   },
 ];
 
