@@ -11,32 +11,23 @@
           </div>
           <div>
             <h1 class="text-4xl text-center md:text-left">
-              How would you like to be compensated for your work?
+              Add your bank details
             </h1>
           </div>
         </div>
-
-        <div class="xs:flex gap-5 justify-center mt-5">
-          <div>
-            <input type="radio" id="Product" value="Product" />
-            <label for="Product" class="ml-1.5">Free Product Ony</label>
-          </div>
-
-          <div>
-            <input type="radio" id="Cash" value="Cash" />
-            <label for="Cash" class="ml-1.5">Cash Only</label>
-          </div>
-
-          <div>
-            <input
-              type="radio"
-              id="Product and Cash"
-              value="Product and Cash"
-            />
-            <label for="Product and Cash" class="ml-1.5"
-              >Free Product and Cash</label
-            >
-          </div>
+        <div class="flex flex-wrap gap-5">
+          <input
+            type="tel"
+            id=""
+            placeholder="Add your account number"
+            class="bg-cream focus:outline-none shadow-sm py-3 px-2 mt-8 flex-grow"
+          />
+          <input
+            type="text"
+            id=""
+            placeholder="Add your bank name"
+            class="bg-cream focus:outline-none shadow-sm py-3 px-2 mt-8 flex-grow"
+          />
         </div>
       </div>
     </div>

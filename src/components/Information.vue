@@ -16,7 +16,7 @@
         </button>
         <button
           v-else
-          @click="Submit"
+          @click="submit"
           class="bg-amber w-28 py-3 text-white rounded-sm focus:outline-none"
         >
           Submit
@@ -77,6 +77,9 @@ export default {
     },
     next() {
       this.currentPage++;
+    },
+    submit() {
+      this.$router.push("/dashboard");
     },
   },
 };
