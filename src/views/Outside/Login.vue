@@ -83,7 +83,7 @@ export default {
     return {};
   },
   methods: {
-    submit() {
+    login() {
       this.$router.push("/dashboard");
     },
   },
