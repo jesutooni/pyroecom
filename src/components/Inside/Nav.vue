@@ -1,7 +1,15 @@
 <template>
   <div>
     <nav class="bg-gray-dark flex justify-between items-center">
-      <div class="w-12 h-12 bg-amber"></div>
+      <div
+        class="w-12 h-12 bg-amber flex justify-center items-center cursor-pointer"
+      >
+        <span
+          class="iconify"
+          data-icon="majesticons:menu"
+          style="color: white"
+        ></span>
+      </div>
       <div class="flex items-center gap-5 text-white text-sm px-8">
         <h1 class="hidden md:block">December 1, 2021</h1>
         <div class="relative cursor-pointer">

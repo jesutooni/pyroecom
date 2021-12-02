@@ -57,6 +57,7 @@
           />
 
           <button
+            @click.prevent="login"
             type="submit"
             class="w-full my-6 bg-amber uppercase text-black font-bold rounded-lg py-2.5"
           >
@@ -80,6 +81,11 @@
 export default {
   data() {
     return {};
+  },
+  methods: {
+    submit() {
+      this.$router.push("/dashboard");
+    },
   },
 };
 </script>
