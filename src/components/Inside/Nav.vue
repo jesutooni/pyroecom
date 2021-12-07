@@ -2,6 +2,7 @@
   <div>
     <nav class="bg-gray-dark flex justify-between items-center">
       <div
+        @click="toggleSidebar"
         class="w-12 h-12 bg-amber flex justify-center items-center cursor-pointer"
       >
         <span
@@ -35,5 +36,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    toggleSidebar() {
+      this.$store.commit("toggleSidebar");
+    },
+  },
+};
 </script>
